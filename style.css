@@ -339,7 +339,7 @@ padding: 100px 0 30px 0;
         /* ====================SDELAT BURGER ============================ */
     }
     .background__img{
-        width: 1440px;
+        min-width: 1440px;
     }
 }
 @keyframes figureMedia {
@@ -381,6 +381,9 @@ padding: 100px 0 30px 0;
         height: 71px;
         top: 42px;
         right: 37px;
+    }
+    .background__img{
+        min-width: 1440px;
     }
 }
 /* ============================= */
