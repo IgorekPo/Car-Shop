@@ -599,9 +599,48 @@ padding: 100px 0 30px 0;
 .magazin__conteiner .swiper-button-next{
     right: -4%;
     transition: 1s;
-    transition: 1s;
     font-size: 30px;
     font-weight: 900;
+}
+@media (max-width:1114px){
+    .magazin__conteiner .swiper-button-prev{
+        left: 30%;
+        top: 72%;
+    }
+    .magazin__conteiner .swiper-button-next{
+        right: 30%;
+        top: 72%;
+    }
+}
+@media (max-width:626px){
+    .magazin__conteiner .swiper-button-prev{
+        left: 30%;
+        top: 74.5%;
+    }
+    .magazin__conteiner .swiper-button-next{
+        right: 30%;
+        top: 74.5%;
+    }
+}
+@media (max-width:470px){
+    .magazin__conteiner .swiper-button-prev{
+        left: 20%;
+        top: 74.5%;
+    }
+    .magazin__conteiner .swiper-button-next{
+        right: 20%;
+        top: 74.5%;
+    }
+}
+@media (max-width:384px){
+    .magazin__conteiner .swiper-button-prev{
+        left: 20%;
+        top: 76%;
+    }
+    .magazin__conteiner .swiper-button-next{
+        right: 20%;
+        top: 76%;
+    }
 }
 .magazin__conteiner .swiper-button-next:hover,
 .magazin__conteiner .swiper-button-prev:hover{
