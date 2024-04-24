@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Car-Shop</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 </head>
 <body>
     <div class="wrapper">
@@ -63,11 +64,87 @@
                 </div>
             </section>
             <section class="magazin">
-                <div class="magazin__conteiner">
-                    <div class="magazin__body">
-                        
-                    </div>
-                </div>
+                   <div class="magazin__conteiner">
+                        <h2 class="magazin__title">OFERTAS <img src="./img/magazin-title.svg" alt="magazin-title"></h2>                    
+                        <!-- Головний контейнер -->
+                        <div class="swiper swiper-conteiner">
+                            <!-- Обов'язкова оболонка -->
+                            <div class="swiper-wrapper wrapper-swiper">
+                                            <!-- Слайдери -->
+                                <div class="swiper-slide slide-swiper">
+                                    <img class="slide-img" src="./img/magazine.png" alt="magazine">
+                                    <div class="slide-content">
+                                        <h5 class="slide-titel">Lorem</h5>
+                                        <p class="slide-text">Lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem ....</p>
+                                        <p class="slide-price">R$ 224<span>,90</span></p>
+                                        <p class="slide-info">Em até 4x s/juros</p>
+                                        <button class="slide-buy" type="button">Ver Produto</button>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide slide-swiper">
+                                    <img class="slide-img" src="./img/magazine.png" alt="magazine">
+                                    <div class="slide-content">
+                                        <h5 class="slide-titel">Lorem</h5>
+                                        <p class="slide-text">Lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem ....</p>
+                                        <p class="slide-price">R$ 224<span>,90</span></p>
+                                        <p class="slide-info">Em até 4x s/juros</p>
+                                        <button class="slide-buy" type="button">Ver Produto</button>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide slide-swiper">
+                                    <img class="slide-img" src="./img/magazine.png" alt="magazine">
+                                    <div class="slide-content">
+                                        <h5 class="slide-titel">Lorem</h5>
+                                        <p class="slide-text">Lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem ....</p>
+                                        <p class="slide-price">R$ 224<span>,90</span></p>
+                                        <p class="slide-info">Em até 4x s/juros</p>
+                                        <button class="slide-buy" type="button">Ver Produto</button>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide slide-swiper">
+                                    <img class="slide-img" src="./img/magazine.png" alt="magazine">
+                                    <div class="slide-content">
+                                        <h5 class="slide-titel">Lorem</h5>
+                                        <p class="slide-text">Lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem ....</p>
+                                        <p class="slide-price">R$ 224<span>,90</span></p>
+                                        <p class="slide-info">Em até 4x s/juros</p>
+                                        <button class="slide-buy" type="button">Ver Produto</button>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide slide-swiper">
+                                    <img class="slide-img" src="./img/magazine.png" alt="magazine">
+                                    <div class="slide-content">
+                                        <h5 class="slide-titel">Lorem</h5>
+                                        <p class="slide-text">Lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem ....</p>
+                                        <p class="slide-price">R$ 224<span>,90</span></p>
+                                        <p class="slide-info">Em até 4x s/juros</p>
+                                        <button class="slide-buy" type="button">Ver Produto</button>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide slide-swiper">
+                                    <img class="slide-img" src="./img/magazine.png" alt="magazine">
+                                    <div class="slide-content">
+                                        <h5 class="slide-titel">Lorem</h5>
+                                        <p class="slide-text">Lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem ....</p>
+                                        <p class="slide-price">R$ 224<span>,90</span></p>
+                                        <p class="slide-info">Em até 4x s/juros</p>
+                                        <button class="slide-buy" type="button">Ver Produto</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Пагинація -->
+                            <div class="swiper-reviews__pagination swiper-pagination "></div>
+                                                
+                            <!-- Полоса проктурки scrollbar -->
+                            <div class="swiper-scrollbar"></div>
+                        </div>
+                        <!-- Стрілки -->
+                        <div class="swiper-button-prev">&#8592</div>
+                        <div class="swiper-button-next">&#8594</div>
+                       <div class="button__block">
+                         <button class="magazin__button">VER PRODUTOS</button>
+                        </div>
+                   </div>
             </section>
         </main>
         <footer class="footer">
@@ -85,9 +162,9 @@
                     <div class="footer__brend"><img src="./img/Vtex.png" alt="Vtex"></div>
                 </div>
             </div>
-
         </footer>
     </div>
-
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>
