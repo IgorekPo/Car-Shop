@@ -761,12 +761,13 @@ padding: 100px 0 30px 0;
     20%, 60%{
         transform: rotate(5deg);
     }
-    40%, 80%{
+    40%, 60%{
         transform: rotate(-5deg);
         opacity: 1;
     }
     100%{
-        transform: translateY(-600px);
+        transform: translateY(-800px);
+        rotate: 0deg;
         opacity: 0;
     }
 }
@@ -780,7 +781,7 @@ padding: 100px 0 30px 0;
     rotate: 49deg;
 }
 .gift__treker:hover{
-    animation: gift-down 4s ease-in-out;
+    animation: gift-down 2.5s ease-in-out;
 }
 @keyframes gift-down {
     20%, 60%{
@@ -791,7 +792,8 @@ padding: 100px 0 30px 0;
         opacity: 1;
     }
     100%{
-        transform: translateY(600px);
+        transform: translateY(800px);
+        rotate: 0deg;
         opacity: 0;
     }
 }
