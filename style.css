@@ -24,6 +24,7 @@ body::-webkit-scrollbar{
 input {
     outline:none;
 }
+
 main{
     flex: 1 1 auto;
 }
@@ -712,6 +713,7 @@ padding: 100px 0 30px 0;
     align-items: center;
     justify-content: center;
     gap: 40px;
+    position: relative;
 }
 .about__title {
     margin-top: 42px;
@@ -745,6 +747,7 @@ padding: 100px 0 30px 0;
     left: -21px;
     bottom: -24px;
 }
+
 .baloon__treker{
     position: absolute;
     bottom: -71px;
@@ -755,7 +758,7 @@ padding: 100px 0 30px 0;
     rotate: 14deg;
 }
 .baloon__treker:hover{
-    animation: baloon-up 4s ease-in-out;
+    animation: baloon-up 1.2s ease-in-out;
 }
 @keyframes baloon-up {
     20%, 60%{
@@ -781,7 +784,7 @@ padding: 100px 0 30px 0;
     rotate: 49deg;
 }
 .gift__treker:hover{
-    animation: gift-down 2.5s ease-in-out;
+    animation: gift-down 1.2s ease-in-out;
 }
 @keyframes gift-down {
     20%, 60%{
@@ -1068,6 +1071,12 @@ padding: 100px 0 30px 0;
     justify-content: center;
 }
 /* ============================= */
+
+/* =============FAQ================ */
+
+
+/* ============================= */
+
 
 
 /* =============FOOTER================ */
