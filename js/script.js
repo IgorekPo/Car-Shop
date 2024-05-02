@@ -1,3 +1,10 @@
+document.querySelector('.burger__menu').addEventListener('click', function(){
+    this.classList.toggle('active');
+})
+
+
+
+
 new Swiper('.swiper',{
     navigation:{
         nextEl: '.swiper-button-next',
