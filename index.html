@@ -4,8 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Car-Shop</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.compat.css"
+  />
 </head>
 <body>
     <div class="wrapper">
@@ -52,8 +56,8 @@
             </section>
             <section class="informations">
                 <div class="informations__conteiner">
-                    <div class="informations__body">
-                        <h2><span>CO</span>NNECT-SE CONOSCO!</h2>
+                    <div class="informations__body wow bounceInRight"  data-wow-iteration="1" data-wow-duration="2s">
+                        <h2 ><span>CO</span>NNECT-SE CONOSCO!</h2>
                         <p>Seja o primeiro a receber as ofertas de aniversário</p>
                         <div class="informations__send">
                             <input class="send__name" type="text" placeholder="Digite seu nome...">
@@ -142,7 +146,7 @@
                         <div class="swiper-button-prev">&#8592</div>
                         <div class="swiper-button-next">&#8594</div>
                        <div class="button__block">
-                         <button class="magazin__button">VER PRODUTOS</button>
+                         <button class="magazin__button ">VER PRODUTOS</button>
                         </div>
                    </div>
             </section>
@@ -150,7 +154,7 @@
                 <div class="about__conteiner">
                     <div class="about__body">
                         <h2 class="about__title"><span>18</span>ANOS DE HISTÓRIA</h2>
-                        <div class="about__block about__block-ball">
+                        <div class="about__block wow bounceInRight" data-wow-iteration="1" data-wow-duration="2s">
                             <div class="block__treker1"></div>
                             <img class="baloon__treker" src="./img/baloon2.png" alt="baloon">
                             <div class="about__text">
@@ -159,7 +163,7 @@
                             </div>
                             <img class="about__block-img" src="./img/img-about.png" alt="about">
                         </div>
-                        <div class="about__block">
+                        <div class="about__block wow bounceInLeft" data-wow-iteration="1" data-wow-duration="2s">
                             <div class="block__treker2"></div>
                             <div class="about__text">
                                 <div class="about__title-titel">PIONEIRA EM E-COMMERCE</div>
@@ -167,7 +171,7 @@
                             </div>
                             <img class="about__block-img" src="./img/img-about.png" alt="about">
                         </div>
-                        <div class="about__block">
+                        <div class="about__block wow bounceInRight" data-wow-iteration="1" data-wow-duration="2s">
                             <div class="block__treker3"></div>
                             <img class="gift__treker" src="./img/gift-move.png" alt="gift">
                             <div class="about__text">
@@ -182,13 +186,13 @@
             <section class="mobile__links">
                 <div class="mobile__conteiner">
                     <div class="mobile__body">
-                        <div class="mobile__information">
+                        <div class="mobile__information wow fadeInTopLeft" data-wow-iteration="1" data-wow-duration="2s">
                             <h2>BAIXE NOSSO APP!</h2>
                             <h2 class="mobile__information-opacity">10% DE DESCONTO</h2>
                             <h2>USANDO O CUPOM</h2>
                             <div><span>APP10</span></div>
                         </div>
-                        <div class="mobile__Qr">
+                        <div class="mobile__Qr wow fadeInTopRight" data-wow-iteration="1" data-wow-duration="2s">
                             <img class="mobile__Qr-img" src="./img/QR.jpg" alt="QRcode">
                             <div class="mobile__store">
                                 <div class="mobile__store-text">BAIXE AGORA EM:</div>
@@ -204,7 +208,7 @@
                     <div class="partners__body">
                         <h2 class="partners__title">SEGURANÇA <span>COMPROVADA</span></h2>
                         <p class="partners__text">Faça suas compras com tranquilidade. A Connect possui os principais selos de qualidade do mercado, somos referência em segurança e confiabilidade digital.</p>
-                        <div class="partners__img">
+                        <div class="partners__img wow flipInX" data-wow-iteration="1" data-wow-duration="2s">
                             <div>
                                 <img src="./img/partner-img-1.png" alt="partner-img">
                                 <img src="./img/partner-img-2.png" alt="partner-img">
@@ -242,6 +246,10 @@
         </footer>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="./script.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
 </body>
 </html>

@@ -700,7 +700,7 @@ padding: 100px 0 30px 0;
 /* =============ABOUT================ */
 
 .about {
-    background: url('./img/bg-about.jpg') no-repeat;
+    background: url('../img/bg-about.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -796,7 +796,7 @@ padding: 100px 0 30px 0;
     }
     100%{
         transform: translateY(800px);
-        rotate: 0deg;
+        rotate:0deg;
         opacity: 0;
     }
 }
