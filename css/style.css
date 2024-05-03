@@ -1253,8 +1253,8 @@ padding: 100px 0 30px 0;
     color: #fff;
 }
 .Faq__link-body.active .Faq__link-answer{
-    max-height: 300px;
-    animation: fade 1s ease-in-out;
+    max-height: 600px;
+    animation: fade 2s ease-in-out;
 }
 .Faq__link-body.active .Faq__link-animation{
     transform: rotate(-90deg);
