@@ -1,7 +1,12 @@
-document.querySelector('.burger__menu').addEventListener('click', function(){
-    this.classList.toggle('active');
-})
 
+
+let headerBody = document.querySelector('.header__body');
+let headerNav = document.querySelector('.header__nav');
+document.querySelector('.burger__menu').addEventListener('click', function(burger){
+    this.classList.toggle('active');
+    headerBody.classList.toggle('active');
+    headerNav.classList.toggle('active');
+})
 
 
 
