@@ -8,7 +8,12 @@ document.querySelector('.burger__menu').addEventListener('click', function(burge
     headerNav.classList.toggle('active');
 })
 
-
+const faqs = document.querySelectorAll (".Faq__link-body");
+faqs.forEach(faq =>{
+    faq.addEventListener("click", ()=>{
+        faq.classList.toggle("active");
+    });
+});
 
 new Swiper('.swiper',{
     navigation:{
